@@ -36,18 +36,22 @@ if(track){
 
 const scrollAmount = 450;
 
+if(nextBtn){
 nextBtn.addEventListener('click',()=>{
 track.scrollBy({
 left:scrollAmount,
 behavior:'smooth'
 });
 });
+}
 
+if(prevBtn){
 prevBtn.addEventListener('click',()=>{
 track.scrollBy({
 left:-scrollAmount,
 behavior:'smooth'
 });
 });
+}
 
 }
