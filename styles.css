@@ -546,6 +546,13 @@ transform:scale(1.15);
 }
 
 @media(max-width:700px){
+  .nav > .mobile-lang-switch{
+    display:flex !important;
+    margin-left:auto;
+    padding:7px 12px;
+    gap:7px;
+  }
+
   .nav-right{
     display:none !important;
   }
